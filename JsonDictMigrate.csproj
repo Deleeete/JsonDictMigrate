@@ -1,0 +1,27 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+      <AssemblyName>jdm</AssemblyName>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="klbot">
+      <HintPath>lib\klbot.dll</HintPath>
+    </Reference>
+    <Reference Include="klbotlib">
+      <HintPath>lib\klbotlib.dll</HintPath>
+    </Reference>
+    <Reference Include="ModuleCollection">
+      <HintPath>lib\ModuleCollection.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
